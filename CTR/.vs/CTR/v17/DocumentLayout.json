@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LEGION\\Desktop\\progres pbo\\CTR\\CTR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF859391-79C6-4A7D-A661-D80EA9188B6D}|CTR.csproj|c:\\users\\legion\\desktop\\progres pbo\\ctr\\ctr\\gamewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF859391-79C6-4A7D-A661-D80EA9188B6D}|CTR.csproj|solutionrelative:gamewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF859391-79C6-4A7D-A661-D80EA9188B6D}|CTR.csproj|C:\\Users\\LEGION\\Desktop\\progres pbo\\CTR\\CTR\\gamewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CF859391-79C6-4A7D-A661-D80EA9188B6D}|CTR.csproj|solutionrelative:gamewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF859391-79C6-4A7D-A661-D80EA9188B6D}|CTR.csproj|C:\\Users\\LEGION\\Desktop\\progres pbo\\CTR\\CTR\\sampah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF859391-79C6-4A7D-A661-D80EA9188B6D}|CTR.csproj|solutionrelative:sampah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF859391-79C6-4A7D-A661-D80EA9188B6D}|CTR.csproj|C:\\Users\\LEGION\\Desktop\\progres pbo\\CTR\\CTR\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CF859391-79C6-4A7D-A661-D80EA9188B6D}|CTR.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF859391-79C6-4A7D-A661-D80EA9188B6D}|CTR.csproj|C:\\Users\\LEGION\\Desktop\\progres pbo\\CTR\\CTR\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF859391-79C6-4A7D-A661-D80EA9188B6D}|CTR.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF859391-79C6-4A7D-A661-D80EA9188B6D}|CTR.csproj|c:\\users\\legion\\desktop\\progres pbo\\ctr\\ctr\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF859391-79C6-4A7D-A661-D80EA9188B6D}|CTR.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameWindow.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\progres pbo\\CTR\\CTR\\GameWindow.cs",
+              "RelativeDocumentMoniker": "GameWindow.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\progres pbo\\CTR\\CTR\\GameWindow.cs",
+              "RelativeToolTip": "GameWindow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T19:58:39.662Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameWindow.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\progres pbo\\CTR\\CTR\\GameWindow.cs",
+              "RelativeDocumentMoniker": "GameWindow.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\progres pbo\\CTR\\CTR\\GameWindow.cs [Design]",
+              "RelativeToolTip": "GameWindow.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T16:33:41.896Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\progres pbo\\CTR\\CTR\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\progres pbo\\CTR\\CTR\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAYwHUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T22:22:09.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\progres pbo\\CTR\\CTR\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\progres pbo\\CTR\\CTR\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T21:00:51.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\progres pbo\\CTR\\CTR\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\progres pbo\\CTR\\CTR\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T21:00:49.964Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Sampah.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\progres pbo\\CTR\\CTR\\Sampah.cs",
+              "RelativeDocumentMoniker": "Sampah.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\progres pbo\\CTR\\CTR\\Sampah.cs",
+              "RelativeToolTip": "Sampah.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T16:35:10.929Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
