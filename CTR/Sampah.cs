@@ -12,7 +12,7 @@ namespace CTR
 {
     internal class Sampah
     {
-        public Image sampah_image;
+        public Image sampahImage;
         public int positionX;
         public int positionY;
         public int height;
@@ -25,8 +25,8 @@ namespace CTR
             limit = rand.Next(200, 400);
             moveLimit = limit;
 
-            speedX = rand.Next(-5, 5);
-            speedY = rand.Next(-5, 5);
+            speedX = rand.Next(-7, 7);
+            speedY = rand.Next(-7, 7);
 
             height = 43;
             width = 60;

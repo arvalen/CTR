@@ -9,6 +9,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\start.gif" />
+    <None Remove="Resources\trClose.png" />
+    <None Remove="Resources\trOpen.gif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\start.gif" />
+    <Resource Include="Resources\trClose.png" />
+    <Resource Include="Resources\trOpen.gif" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
