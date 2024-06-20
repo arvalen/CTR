@@ -11,6 +11,7 @@ namespace CTR
         private static List<PlayerScore> scores = new List<PlayerScore>();
         private int currentScore;
         private bool scoreSubmitted = false;
+        private PictureBox pbBackToHome;
 
         public ScoreboardForm(int score)
         {
@@ -18,92 +19,85 @@ namespace CTR
             InitializeComponent();
             InitializeCustomComponents();
 
-            // Set form properties
+            //  Form properties
             this.FormBorderStyle = FormBorderStyle.FixedDialog;
             this.ControlBox = false;
         }
 
         private void InitializeComponent()
         {
-            this.lblEnterName = new Label();
-            this.txtName = new TextBox();
-            this.btnSubmit = new Button();
-            this.lblleaderboard = new Label();
-            this.listBoxScores = new ListBox();
-            this.btnPlayAgain = new Button();
-            this.SuspendLayout();
-            // 
+            this.BackColor = Color.FromArgb(173, 232, 244);
+
+            lblEnterName = new Label();
+            txtName = new TextBox();
+            btnSubmit = new Button();
+            lblleaderboard = new Label();
+            listBoxScores = new ListBox();
+            btnPlayAgain = new Button();
+            SuspendLayout();
+
             // lblEnterName
-            // 
-            this.lblEnterName.AutoSize = true;
-            this.lblEnterName.Location = new Point(207, 106);
-            this.lblEnterName.Name = "lblEnterName";
-            this.lblEnterName.Size = new Size(198, 27);
-            this.lblEnterName.Font = new Font("Arial", 12, FontStyle.Regular);
-            this.lblEnterName.Text = "Enter your name:";
-            // 
+            lblEnterName.AutoSize = true;
+            lblEnterName.Font = new Font("Chinese Rocks", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            lblEnterName.Location = new Point(203, 106);
+            lblEnterName.Name = "lblEnterName";
+            lblEnterName.Size = new Size(198, 27);
+            lblEnterName.Text = "Enter your name:";
+
             // txtName
-            // 
-            this.txtName.Location = new Point(142, 146);
-            this.txtName.Name = "txtName";
-            this.txtName.Size = new Size(320, 50);
-            this.txtName.Font = new Font("Arial", 12, FontStyle.Regular);
-            this.txtName.TextAlign = HorizontalAlignment.Center;
+            txtName.Font = new Font("Chinese Rocks", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            txtName.Location = new Point(142, 146);
+            txtName.Name = "txtName";
+            txtName.Size = new Size(320, 35);
+            txtName.TextAlign = HorizontalAlignment.Center;
 
-            // 
             // btnSubmit
-            // 
-            this.btnSubmit.Location = new Point(243, 220);
-            this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new Size(118, 49);
-            this.btnSubmit.Font = new Font("Arial", 12, FontStyle.Regular);
-            this.btnSubmit.Text = "Submit";
-            // 
+            btnSubmit.BackColor = Color.DeepSkyBlue;
+            btnSubmit.Font = new Font("Chinese Rocks", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            btnSubmit.Location = new Point(243, 220);
+            btnSubmit.Name = "btnSubmit";
+            btnSubmit.Size = new Size(118, 49);
+            btnSubmit.Text = "Submit";
+
             // lblleaderboard
-            // 
-            this.lblleaderboard.AutoSize = true;
-            this.lblleaderboard.Location = new Point(231, 307);
-            this.lblleaderboard.Name = "lblleaderboard";
-            this.lblleaderboard.Size = new Size(118, 27);
-            this.lblleaderboard.Font = new Font("Arial", 12, FontStyle.Regular);
-            this.lblleaderboard.Text = "Leaderboard";
-            // 
+            lblleaderboard.AutoSize = true;
+            lblleaderboard.Font = new Font("Chinese Rocks", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            lblleaderboard.Location = new Point(231, 307);
+            lblleaderboard.Name = "lblleaderboard";
+            lblleaderboard.Size = new Size(148, 27);
+            lblleaderboard.Text = "Leaderboard";
+
             // listBoxScores
-            // 
-            this.listBoxScores.DrawMode = DrawMode.OwnerDrawFixed;
-            this.listBoxScores.FormattingEnabled = true;
-            this.listBoxScores.ItemHeight = 27;
-            this.listBoxScores.Location = new Point(142, 345);
-            this.listBoxScores.Name = "listBoxScores";
-            this.listBoxScores.Size = new Size(320, 274);
-            this.listBoxScores.Font = new Font("Arial", 12, FontStyle.Regular);
-            this.listBoxScores.DrawItem += new DrawItemEventHandler(listBoxScores_DrawItem);
-            // 
+            listBoxScores.DrawMode = DrawMode.OwnerDrawFixed;
+            listBoxScores.Font = new Font("Chinese Rocks", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            listBoxScores.FormattingEnabled = true;
+            listBoxScores.ItemHeight = 27;
+            listBoxScores.Location = new Point(74, 345);
+            listBoxScores.Name = "listBoxScores";
+            listBoxScores.Size = new Size(471, 274);
+            listBoxScores.DrawItem += listBoxScores_DrawItem;
+
             // btnPlayAgain
-            // 
-            this.btnPlayAgain.Location = new Point(142, 652);
-            this.btnPlayAgain.Name = "btnPlayAgain";
-            this.btnPlayAgain.Size = new Size(320, 72);
-            this.btnPlayAgain.Font = new Font("Arial", 12, FontStyle.Regular);
-            this.btnPlayAgain.Text = "Play Again";
+            btnPlayAgain.BackColor = Color.ForestGreen;
+            btnPlayAgain.Font = new Font("Chinese Rocks", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            btnPlayAgain.Location = new Point(142, 652);
+            btnPlayAgain.Name = "btnPlayAgain";
+            btnPlayAgain.Size = new Size(320, 72);
+            btnPlayAgain.Text = "Play Again";
 
-            // 
             // ScoreboardForm
-            // 
-            this.ClientSize = new Size(611, 828);
-            this.Controls.Add(this.lblEnterName);
-            this.Controls.Add(this.txtName);
-            this.Controls.Add(this.btnSubmit);
-            this.Controls.Add(this.lblleaderboard);
-            this.Controls.Add(this.listBoxScores);
-            this.Controls.Add(this.btnPlayAgain);
-            this.Name = "ScoreboardForm";
-            this.StartPosition = FormStartPosition.CenterParent;
-            this.Text = "Scoreboard";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
-            LoadScores();
+            ClientSize = new Size(611, 828);
+            Controls.Add(lblEnterName);
+            Controls.Add(txtName);
+            Controls.Add(btnSubmit);
+            Controls.Add(lblleaderboard);
+            Controls.Add(listBoxScores);
+            Controls.Add(btnPlayAgain);
+            Name = "ScoreboardForm";
+            StartPosition = FormStartPosition.CenterParent;
+            Text = "Scoreboard";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         private void InitializeCustomComponents()

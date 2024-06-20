@@ -11,7 +11,7 @@ namespace CTR
     public class GameWindow : Form
     {
         private PictureBox pictureBoxInfo, pBtrClose;
-        private int timeLeft = 5;
+        private int timeLeft = 15;
         private int caught = 0;
         private int spawnTime = 0;
         private int spawnLimit = 30;
@@ -24,7 +24,7 @@ namespace CTR
         private Label lblCaught;
         private Label lblTimer;
         private ProgressBar cleanlinessMeter;
-
+        private Image bgImage;
 
         private bool scoreSubmitted = false;
 
@@ -36,6 +36,15 @@ namespace CTR
             Properties.Resources._01, Properties.Resources._02, Properties.Resources._03, Properties.Resources._04, Properties.Resources._05,
             Properties.Resources._06, Properties.Resources._07, Properties.Resources._08, Properties.Resources._09, Properties.Resources._10
         };
+        private Image[] backgroundImages = {
+        Properties.Resources.beach,
+        Properties.Resources.chinatown,
+        Properties.Resources.river,
+        Properties.Resources.road,
+        Properties.Resources.snow,
+        Properties.Resources.statue,
+        Properties.Resources.temple
+    };
 
         public GameWindow()
         {
@@ -52,15 +61,17 @@ namespace CTR
             cleanlinessMeter.Location = new Point(650, 966);
             cleanlinessMeter.Size = new Size(300, 40);
             cleanlinessMeter.Minimum = 0;
-            cleanlinessMeter.Maximum = spawnLimit; // Atur maksimum sesuai dengan spawnLimit
-            cleanlinessMeter.Value = 0; // Atur nilai awal berdasarkan jumlah sampah saat ini
+            cleanlinessMeter.Maximum = spawnLimit;
+            cleanlinessMeter.Value = 0;
             this.Controls.Add(cleanlinessMeter);
 
-            // Pengaturan form dan properti kontrol
-            this.BackgroundImage = Properties.Resources.background;
-            this.BackgroundImageLayout = ImageLayout.Stretch;
+            bgImage = Properties.Resources.river;
+            ImageAnimator.Animate(bgImage, OnFrameChangedHandler);
+
+
             this.DoubleBuffered = true;
             this.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            this.Icon = Properties.Resources.CTR;
             this.Text = "Catch The Rubbish";
             this.Size = new Size(1600, 1080);
             this.MouseDown += FormMouseDownEvent;
@@ -100,6 +111,12 @@ namespace CTR
             pBtrClose.Location = new Point(1337, 673);
             pBtrClose.Size = new Size(250, 280);
             this.Controls.Add(pBtrClose);
+        }
+        private void ChangeBackgroundImage()
+        {
+            int index = rand.Next(backgroundImages.Length);
+            bgImage = backgroundImages[index];
+            ImageAnimator.Animate(bgImage, OnFrameChangedHandler);
         }
 
         private void UpdateCleanlinessMeter()
@@ -229,7 +246,7 @@ namespace CTR
                     }
                 }
             }
-            UpdateCleanlinessMeter(); 
+            UpdateCleanlinessMeter();
 
             this.Invoke((Action)(() => this.Invalidate()));
         }
@@ -278,7 +295,9 @@ namespace CTR
 
         private void FormPaintEvent(object sender, PaintEventArgs e)
         {
-            ImageAnimator.UpdateFrames();
+            ImageAnimator.UpdateFrames(bgImage);
+
+            e.Graphics.DrawImage(bgImage, new Rectangle(0, 0, this.ClientSize.Width, this.ClientSize.Height));
 
             foreach (Sampah sampah in sampahList)
             {
@@ -310,17 +329,29 @@ namespace CTR
             sampahList.Clear();
             caught = 0;
             lblCaught.Text = "Caught: 0";
-            timeLeft = 5;
+            timeLeft = 15;
             spawnTime = 0;
             lblTimer.Text = "Time Left: " + timeLeft;
             scoreSubmitted = false;
+            ChangeBackgroundImage();
             StartCountdown();
+
+            // Animasi sampah diaktifkan kembali
+            foreach (Sampah sampah in sampahList)
+            {
+                ImageAnimator.Animate(sampah.sampahImage, this.OnFrameChangedHandler);
+            }
+
+
+            gameTimer.Start();
         }
 
         private void GameOver()
+
         {
-            gameRunning = false; // Menghentikan pergerakan sampah
-            UpdateCleanlinessMeter(); // Update terakhir meter kebersihan
+            gameTimer.Stop();
+            gameRunning = false;
+            UpdateCleanlinessMeter();
 
             ScoreboardForm scoreboard = new ScoreboardForm(caught);
             scoreboard.ShowDialog();

@@ -163,10 +163,89 @@ namespace CTR.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap background {
+        internal static System.Drawing.Bitmap beach {
             get {
-                object obj = ResourceManager.GetObject("background", resourceCulture);
+                object obj = ResourceManager.GetObject("beach", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bgrnd {
+            get {
+                object obj = ResourceManager.GetObject("bgrnd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap chinatown {
+            get {
+                object obj = ResourceManager.GetObject("chinatown", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon CTR {
+            get {
+                object obj = ResourceManager.GetObject("CTR", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap music {
+            get {
+                object obj = ResourceManager.GetObject("music", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap river {
+            get {
+                object obj = ResourceManager.GetObject("river", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap road {
+            get {
+                object obj = ResourceManager.GetObject("road", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap snow {
+            get {
+                object obj = ResourceManager.GetObject("snow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream sora {
+            get {
+                return ResourceManager.GetStream("sora", resourceCulture);
             }
         }
         
@@ -176,6 +255,26 @@ namespace CTR.Properties {
         internal static System.Drawing.Bitmap start {
             get {
                 object obj = ResourceManager.GetObject("start", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap statue {
+            get {
+                object obj = ResourceManager.GetObject("statue", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap temple {
+            get {
+                object obj = ResourceManager.GetObject("temple", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

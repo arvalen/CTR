@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\LEGION\\Desktop\\edit di hp\\ctt\\CTR\\",
+  "WorkspaceRootPath": "C:\\Users\\LEGION\\Desktop\\FINAL PBO\\CTR\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF859391-79C6-4A7D-A661-D80EA9188B6D}|CTR.csproj|c:\\users\\legion\\desktop\\edit di hp\\ctt\\ctr\\scoreboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF859391-79C6-4A7D-A661-D80EA9188B6D}|CTR.csproj|solutionrelative:scoreboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8DB2F306-9A4B-4226-BC6C-1940B404FF46}|CTR.csproj|c:\\users\\legion\\desktop\\final pbo\\ctr\\scoreboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DB2F306-9A4B-4226-BC6C-1940B404FF46}|CTR.csproj|solutionrelative:scoreboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF859391-79C6-4A7D-A661-D80EA9188B6D}|CTR.csproj|C:\\Users\\LEGION\\Desktop\\edit di hp\\ctt\\CTR\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CF859391-79C6-4A7D-A661-D80EA9188B6D}|CTR.csproj|solutionrelative:home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8DB2F306-9A4B-4226-BC6C-1940B404FF46}|CTR.csproj|c:\\users\\legion\\desktop\\final pbo\\ctr\\sampah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DB2F306-9A4B-4226-BC6C-1940B404FF46}|CTR.csproj|solutionrelative:sampah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF859391-79C6-4A7D-A661-D80EA9188B6D}|CTR.csproj|C:\\Users\\LEGION\\Desktop\\edit di hp\\ctt\\CTR\\gamewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CF859391-79C6-4A7D-A661-D80EA9188B6D}|CTR.csproj|solutionrelative:gamewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8DB2F306-9A4B-4226-BC6C-1940B404FF46}|CTR.csproj|c:\\users\\legion\\desktop\\final pbo\\ctr\\gamewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DB2F306-9A4B-4226-BC6C-1940B404FF46}|CTR.csproj|solutionrelative:gamewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF859391-79C6-4A7D-A661-D80EA9188B6D}|CTR.csproj|C:\\Users\\LEGION\\Desktop\\edit di hp\\ctt\\CTR\\scoreboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CF859391-79C6-4A7D-A661-D80EA9188B6D}|CTR.csproj|solutionrelative:scoreboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8DB2F306-9A4B-4226-BC6C-1940B404FF46}|CTR.csproj|c:\\users\\legion\\desktop\\final pbo\\ctr\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DB2F306-9A4B-4226-BC6C-1940B404FF46}|CTR.csproj|solutionrelative:home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF859391-79C6-4A7D-A661-D80EA9188B6D}|CTR.csproj|C:\\Users\\LEGION\\Desktop\\edit di hp\\ctt\\CTR\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF859391-79C6-4A7D-A661-D80EA9188B6D}|CTR.csproj|solutionrelative:home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8DB2F306-9A4B-4226-BC6C-1940B404FF46}|CTR.csproj|c:\\users\\legion\\desktop\\final pbo\\ctr\\playerscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DB2F306-9A4B-4226-BC6C-1940B404FF46}|CTR.csproj|solutionrelative:playerscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF859391-79C6-4A7D-A661-D80EA9188B6D}|CTR.csproj|c:\\users\\legion\\desktop\\edit di hp\\ctt\\ctr\\gamewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF859391-79C6-4A7D-A661-D80EA9188B6D}|CTR.csproj|solutionrelative:gamewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8DB2F306-9A4B-4226-BC6C-1940B404FF46}|CTR.csproj|c:\\users\\legion\\desktop\\final pbo\\ctr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DB2F306-9A4B-4226-BC6C-1940B404FF46}|CTR.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,85 +37,86 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GameWindow.cs",
-              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\edit di hp\\ctt\\CTR\\GameWindow.cs",
-              "RelativeDocumentMoniker": "GameWindow.cs",
-              "ToolTip": "C:\\Users\\LEGION\\Desktop\\edit di hp\\ctt\\CTR\\GameWindow.cs",
-              "RelativeToolTip": "GameWindow.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAQwBoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T19:58:39.662Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Home.cs",
-              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\edit di hp\\ctt\\CTR\\Home.cs",
-              "RelativeDocumentMoniker": "Home.cs",
-              "ToolTip": "C:\\Users\\LEGION\\Desktop\\edit di hp\\ctt\\CTR\\Home.cs",
-              "RelativeToolTip": "Home.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAqwF8AAABkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:39:34.865Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\FINAL PBO\\CTR\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\FINAL PBO\\CTR\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T01:44:35.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerScore.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\FINAL PBO\\CTR\\PlayerScore.cs",
+              "RelativeDocumentMoniker": "PlayerScore.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\FINAL PBO\\CTR\\PlayerScore.cs",
+              "RelativeToolTip": "PlayerScore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T01:43:57.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ScoreboardForm.cs",
-              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\edit di hp\\ctt\\CTR\\ScoreboardForm.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\FINAL PBO\\CTR\\ScoreboardForm.cs",
               "RelativeDocumentMoniker": "ScoreboardForm.cs",
-              "ToolTip": "C:\\Users\\LEGION\\Desktop\\edit di hp\\ctt\\CTR\\ScoreboardForm.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\FINAL PBO\\CTR\\ScoreboardForm.cs",
               "RelativeToolTip": "ScoreboardForm.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAYwCYAAAA2AAAA",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAcwLAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T07:12:29.122Z",
+              "WhenOpened": "2024-06-20T01:41:33.377Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ScoreboardForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\edit di hp\\ctt\\CTR\\ScoreboardForm.cs",
-              "RelativeDocumentMoniker": "ScoreboardForm.cs",
-              "ToolTip": "C:\\Users\\LEGION\\Desktop\\edit di hp\\ctt\\CTR\\ScoreboardForm.cs [Design]",
-              "RelativeToolTip": "ScoreboardForm.cs [Design]",
+              "Title": "Home.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\FINAL PBO\\CTR\\Home.cs",
+              "RelativeDocumentMoniker": "Home.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\FINAL PBO\\CTR\\Home.cs",
+              "RelativeToolTip": "Home.cs",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAUwMIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T02:39:00.122Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameWindow.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\edit di hp\\ctt\\CTR\\GameWindow.cs",
-              "RelativeDocumentMoniker": "GameWindow.cs",
-              "ToolTip": "C:\\Users\\LEGION\\Desktop\\edit di hp\\ctt\\CTR\\GameWindow.cs [Design]",
-              "RelativeToolTip": "GameWindow.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:44:12.17Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-20T01:41:05.578Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Home.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\edit di hp\\ctt\\CTR\\Home.cs",
-              "RelativeDocumentMoniker": "Home.cs",
-              "ToolTip": "C:\\Users\\LEGION\\Desktop\\edit di hp\\ctt\\CTR\\Home.cs [Design]",
-              "RelativeToolTip": "Home.cs [Design]",
+              "Title": "Sampah.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\FINAL PBO\\CTR\\Sampah.cs",
+              "RelativeDocumentMoniker": "Sampah.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\FINAL PBO\\CTR\\Sampah.cs",
+              "RelativeToolTip": "Sampah.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAiwD8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T22:43:38.39Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-20T01:40:52.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameWindow.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Desktop\\FINAL PBO\\CTR\\GameWindow.cs",
+              "RelativeDocumentMoniker": "GameWindow.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Desktop\\FINAL PBO\\CTR\\GameWindow.cs",
+              "RelativeToolTip": "GameWindow.cs",
+              "ViewState": "AQIAADUBAAAAAAAAAAAiwGkBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T01:40:35.49Z",
+              "EditorCaption": ""
             }
           ]
         }
