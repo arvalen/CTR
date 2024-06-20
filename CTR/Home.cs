@@ -32,8 +32,12 @@ namespace CTR
             this.BackColor = Color.Black;
             this.Icon = Properties.Resources.CTR;
             this.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            this.Text = "Catch The Rubbish";
+            this.Text = "Catch The Rubbish ◥◣";
             this.Size = new Size(1600, 1080);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.FormBorderStyle = FormBorderStyle.FixedSingle; 
+
 
             // Panel background dan controls
             mainPanel = new AnimatedPanel(Properties.Resources.bgrnd);
@@ -54,7 +58,7 @@ namespace CTR
             lblHTP.BackColor = Color.Transparent;
             lblHTP.Font = new Font("Chinese Rocks", 20F, FontStyle.Regular, GraphicsUnit.Point);
             lblHTP.ForeColor = Color.LightCyan;
-            lblHTP.Text = "Cara Bermain\n\nAnda memiliki waktu terbatas untuk menangkap sampah sebanyak mungkin. Cukup klik sampah yang terbang di taman dan itu akan ditambahkan ke skor Anda. Anda memiliki waktu yang terbatas. Semoga berhasil.";
+            lblHTP.Text = "Cara Bermain\n\nAnda memiliki waktu terbatas untuk mengambil sampah sebanyak mungkin. Klik & seret sampah sampah itu ke tempat sampah. Anda memiliki waktu yang terbatas. \n Semoga berhasil.";
             lblHTP.TextAlign = ContentAlignment.MiddleCenter;
             lblHTP.Location = new Point(25, 792);
             lblHTP.Size = new Size(1530, 223);

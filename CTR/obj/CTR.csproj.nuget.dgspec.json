@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LEGION\\Desktop\\FINAL PBO\\CTR\\CTR.csproj": {}
+    "C:\\Users\\LEGION\\Desktop\\git ctr\\CTR\\CTR\\CTR.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LEGION\\Desktop\\FINAL PBO\\CTR\\CTR.csproj": {
+    "C:\\Users\\LEGION\\Desktop\\git ctr\\CTR\\CTR\\CTR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LEGION\\Desktop\\FINAL PBO\\CTR\\CTR.csproj",
+        "projectUniqueName": "C:\\Users\\LEGION\\Desktop\\git ctr\\CTR\\CTR\\CTR.csproj",
         "projectName": "CTR",
-        "projectPath": "C:\\Users\\LEGION\\Desktop\\FINAL PBO\\CTR\\CTR.csproj",
+        "projectPath": "C:\\Users\\LEGION\\Desktop\\git ctr\\CTR\\CTR\\CTR.csproj",
         "packagesPath": "C:\\Users\\LEGION\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LEGION\\Desktop\\FINAL PBO\\CTR\\obj\\",
+        "outputPath": "C:\\Users\\LEGION\\Desktop\\git ctr\\CTR\\CTR\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LEGION\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -11,7 +11,7 @@ namespace CTR
     public class GameWindow : Form
     {
         private PictureBox pictureBoxInfo, pBtrClose;
-        private int timeLeft = 15;
+        private int  timeLeft = 60;
         private int caught = 0;
         private int spawnTime = 0;
         private int spawnLimit = 30;
@@ -72,8 +72,11 @@ namespace CTR
             this.DoubleBuffered = true;
             this.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             this.Icon = Properties.Resources.CTR;
-            this.Text = "Catch The Rubbish";
+            this.Text = "Catch The Rubbish ◥◣";
             this.Size = new Size(1600, 1080);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.FormBorderStyle = FormBorderStyle.FixedSingle; 
             this.MouseDown += FormMouseDownEvent;
             this.MouseMove += FormMouseMoveEvent;
             this.MouseUp += FormMouseUpEvent;
@@ -329,7 +332,7 @@ namespace CTR
             sampahList.Clear();
             caught = 0;
             lblCaught.Text = "Caught: 0";
-            timeLeft = 15;
+            timeLeft = 60;
             spawnTime = 0;
             lblTimer.Text = "Time Left: " + timeLeft;
             scoreSubmitted = false;

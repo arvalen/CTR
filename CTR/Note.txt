@@ -1,0 +1,19 @@
+Konsep-konsep PBO yang sudah diterapkan:
+
+1. Encapsulation (Enkapsulasi):
+- Penggunaan kelas (GameWindow, Home, AnimatedPanel, Sampah, dll.) untuk mengelompokkan data dan metode dalam satu kesatuan. Hal ini membantu dalam melindungi data dan menjaga integritasnya.
+- Properti dan metode yang relevan dideklarasikan dalam class.
+
+2. Inheritance (Pewarisan):
+-  Kelas GameWindow dan Home mewarisi dari kelas Form, dan AnimatedPanel mewarisi dari kelas Panel.
+
+3. Polymorphism (Polimorfisme):
+-  Polimorfisme terlihat pada penggunaan metode yang diturunkan dari kelas dasar Form dan Panel, seperti OnPaint dan event handlers seperti MouseDown, MouseMove, dan MouseUp.
+
+4. Abstraction (Abstraksi):
+-  Mengabstraksi detail implementasi dalam metode seperti UpdateGame, FormMouseDownEvent, FormMouseMoveEvent, dll., sehingga menyembunyikan kompleksitas dan hanya menampilkan antarmuka yang diperlukan kepada pengguna kelas.
+
+
+## Install font custom 'Avicii' dan 'Chinese Rocks'
+
+◥◣

@@ -11,7 +11,6 @@ namespace CTR
         private static List<PlayerScore> scores = new List<PlayerScore>();
         private int currentScore;
         private bool scoreSubmitted = false;
-        private PictureBox pbBackToHome;
 
         public ScoreboardForm(int score)
         {
@@ -95,7 +94,8 @@ namespace CTR
             Controls.Add(btnPlayAgain);
             Name = "ScoreboardForm";
             StartPosition = FormStartPosition.CenterParent;
-            Text = "Scoreboard";
+            Text = "Scoreboard ◥◣";
+            
             ResumeLayout(false);
             PerformLayout();
         }
