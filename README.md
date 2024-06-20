@@ -1,3 +1,3 @@
 ## Catch The Rubbish - CTR
 
-![trClose](https://github.com/maxwin/CTR/blob/main/CTR/Resources/trClose.png)
+![trClose](https://github.com/arvalen/CTR/blob/main/CTR/Resources/trClose.png)
